@@ -15,7 +15,7 @@ def header() -> rx.Component:
                 "Bryan Josue Vivanco Silva"
                 ),
                 rx.text(
-                    """Ingeniero Electrónico y Telecomunicaciones Colegiado de la Universidad Nacional de Piura con N° reg CIP 328477. 
+                    """Ingeniero Electrónico y Telecomunicaciones. 
                     +1 año realizando proyectos personales, aprendiendo tecnologías y +3 años trabajando en el campo de TI. Autodidacta con orientación al servicio, rápida capacidad de aprendizaje, buenas relaciones interpersonales a todo nivel social, alta capacidad analítica comunicativa, pensamiento estratégico y dinamismo. Buenas habilidades para el trabajo en equipo y bajo presión, alta capacidad organizativa y buen criterio. 
                     """
                 ),
