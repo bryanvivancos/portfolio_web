@@ -1,11 +1,13 @@
 import reflex as rx
-import portfolio_web.styles.styles as styles
+from portfolio_web.styles.styles import Size as Size
 
-def link_icon(url:str) -> rx.Component:
+def link_icon(image:str,url:str,external:bool) -> rx.Component:
     return rx.link(
-        rx.icon(
-            tag="link",
+        rx.image(
+            src=image,
+            width= Size.BIG.value,
         ),
         href=url,
-        is_external= True,
+        is_external= external,
+        
     )

@@ -1,14 +1,16 @@
 import reflex as rx
 import portfolio_web.styles.styles as styles
+from portfolio_web.styles.styles import Size
 
-def link_button(title:str,body:str,url:str="#") -> rx.Component:
+def link_button(title:str,body:str,image:str="",url:str="#") -> rx.Component:
     return rx.link(
         rx.button(
             rx.hstack(
-                rx.icon(
-                    tag= "calendar",
-                    width= styles.Size.BIG.value,
-                    height= styles.Size.BIG.value,
+                rx.image(
+                    src= image,
+                    width= Size.LARGE.value,
+                    margin= Size.MEDIUM.value,
+                    align="center",
                 ),
                 rx.vstack(
                     rx.text(
@@ -19,8 +21,13 @@ def link_button(title:str,body:str,url:str="#") -> rx.Component:
                         body, 
                         style= styles.button_body_style,
                     ),
+                    spacing= Size.ZERO.value,
+                    padding= Size.SMALL.value,
+                    gap=Size.ZERO.value,
                 ),
-                align_items= "start",
+            gap=Size.ZERO.value,
+            width="100%",
+            align_items= "start",
             ),
         ),
         href= url,    

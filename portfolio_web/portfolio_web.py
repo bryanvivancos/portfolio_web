@@ -22,11 +22,18 @@ def index() -> rx.Component:
             width= "100%",
             margin_y= Size.BIG.value
             ),
+            margin_x=Size.SMALL.value,
         ),
         footer(),        
     )
 
 app = rx.App(
-    style= styles.BASE_STYLE
+    stylesheets= styles.STYLESHEETS,
+    style= styles.BASE_STYLE,
 )
-app.add_page(index)
+app.add_page(
+    index,
+    title= "Bryan's Web",
+    description= "Mi portafolio web",
+    image="images/image.jpg"
+)

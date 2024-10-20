@@ -2,58 +2,87 @@ import reflex as rx
 from portfolio_web.components.link_button import link_button
 from portfolio_web.components.titles import title
 from portfolio_web.styles.styles import Size
+from portfolio_web.components.link_icon import link_icon
+import portfolio_web.styles.styles as styles
+import portfolio_web.constants as const
 
 def links() -> rx.Component:
     return rx.vstack(
-        title("PROYECTOS"),
+        
+        title("Proyectos","proyectos"),
         link_button(
             "CV desde Google Drive",
             "CV desde Google Drive",
-            "https://docs.google.com/document/d/1COvjcCJE4GXUlkkSa9U6CrofLQPBkKWM/edit?usp=sharing&ouid=117976139180001148882&rtpof=true&sd=true",
+            "icons/google_drive.svg",
+            const.CV_URL,
         ),
         link_button(
             "DE FORMULARIO WEB A WORD - PYTHON",
             "Proyecto que automatiza el llenado de un Formato Word con las respuestas de un Formulario WEB",
-            "https://github.com/bryanvivancos",
+            "icons/github.svg",
+            const.FORMULARIOWEB_URL,
         ),
         link_button(
             "GENERATING DATA - PYTHON",
             "Proyecto que se encarga de generar data para visualizarla y analizarla",
-            "https://github.com/bryanvivancos",
+            "icons/github.svg",
+            const.GENERATINGDATA_URL,
         ),
         link_button(
             "GETTING STARTED WITH DJANGO - PYTHON",
-            "Proyecto que crea una página de inicio y una base de datos con Django ",
-            "https://github.com/bryanvivancos",
+            "Primeros pasos para crear una aplicación web con Django ",
+            "icons/github.svg",
+            const.GETTINDJANGO_URL,
         ),
         link_button(
             "X FOLLOW CARD - REACT",
             "Plantilla que simula la tarjeta de seguido/dejar de seguir de la plataforma X(antes Twitter)",
-            "https://github.com/bryanvivancos",
+            "icons/github.svg",
+            const.XFOLLOWCARD_URL,
         ),
         
-        title("CURSOS Y CERTIFICACIONES"),
+        title("Cursos y Certificaciones","cursos"),
         link_button(
             "Data Science For Business",
             "Tu primera semana como Data Scientist",
-            "https://docs.google.com/document/d/1COvjcCJE4GXUlkkSa9U6CrofLQPBkKWM/edit?usp=sharing&ouid=117976139180001148882&rtpof=true&sd=true",
+            "icons/google_drive.svg",
+            const.DSFB_URL,
         ),
         link_button(
             "CIETSI - COLEGIO DE INGENIEROS, CD - PIURA",
             "Implementación de una base de datos con SQL SERVER 2022",
-            "https://docs.google.com/document/d/1COvjcCJE4GXUlkkSa9U6CrofLQPBkKWM/edit?usp=sharing&ouid=117976139180001148882&rtpof=true&sd=true",
+            "icons/google_drive.svg",
+            const.CERTCIETSI_URL,
         ),
         link_button(
-            "HARVARD",
+            "UDEMY",
             "Desarrollo Web - HTML, CSS, JAVASCRIPT",
-            "https://docs.google.com/document/d/1COvjcCJE4GXUlkkSa9U6CrofLQPBkKWM/edit?usp=sharing&ouid=117976139180001148882&rtpof=true&sd=true",
+            "icons/google_drive.svg",
+            const.CV_URL,
         ),
         link_button(
             "CISCO NETACAD",
             "NDG Linux Essentials",
-            "https://docs.google.com/document/d/1COvjcCJE4GXUlkkSa9U6CrofLQPBkKWM/edit?usp=sharing&ouid=117976139180001148882&rtpof=true&sd=true",
+            "icons/google_drive.svg",
+            const.NETNDGLINUX_URL,
         ),
-        title("SKILLS ADICIONALES"),
+        
+        title("Skills Adicionales","skills"),
+        rx.hstack(
+            rx.image(
+            src="icons/html.svg",
+            width= Size.BIG.value,
+            ),
+            rx.image(
+            src="icons/css.svg",
+            width= Size.BIG.value,
+            ),
+            rx.image(
+            src="icons/javascript.svg",
+            width= Size.BIG.value,
+            ),
+            style= styles.link_icon_style,
+        ),
         
         spacing= Size.MEDIUM.value,
         width="100%"
