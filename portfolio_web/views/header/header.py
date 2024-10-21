@@ -51,7 +51,7 @@ def header() -> rx.Component:
             ),
             link_icon(
                 "icons/mail.svg",
-                const.GITHUB_URL,
+                f"mailto:{const.EMAIL}",
                 True,
             ),
             style= styles.link_icon_style

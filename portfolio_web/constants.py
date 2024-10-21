@@ -16,3 +16,6 @@ XFOLLOWCARD_URL = "https://github.com/bryanvivancos/x_FollowCard"
 DSFB_URL = "https://drive.google.com/file/d/1wwGnsUsofVXpkxNwbygFpsABEJjYh_eA/view?usp=sharing"
 CERTCIETSI_URL = "https://drive.google.com/file/d/1IY8a3koFBj9LXOB8GCmOxS-8oduj26Lj/view?usp=sharing"
 NETNDGLINUX_URL = "https://drive.google.com/file/d/1izHdLPAQCJFODG4YwkWHxt5iDhoqjEMs/view?usp=sharing"
+
+#CONTACTO
+EMAIL = "example@example.com"
