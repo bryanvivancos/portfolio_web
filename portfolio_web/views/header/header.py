@@ -17,7 +17,7 @@ def header() -> rx.Component:
                 padding="2px",
                 border= "4px solid #01C38E",   
                 width= rx.breakpoints(initial="150px",sm="200px"),        
-                height= rx.breakpoints(initial="150px",sm="200px"), 
+                height= rx.breakpoints(initial="150px",sm="200px"),
                 ),
             ),
             rx.vstack(
@@ -33,6 +33,7 @@ def header() -> rx.Component:
                     font_size=Size.MEDIUM.value
                 ),
             ),
+            grid_template_columns= rx.breakpoints(initial="1fr",sm="1fr 2fr"),
             columns= rx.breakpoints(initial="1",sm="2"),
             spacing= Size.MEDIUM.value,
             justify="center"
@@ -45,6 +46,11 @@ def header() -> rx.Component:
             ),
             link_icon(
                 "icons/github.svg",
+                const.GITHUB_URL,
+                True,
+            ),
+            link_icon(
+                "icons/mail.svg",
                 const.GITHUB_URL,
                 True,
             ),

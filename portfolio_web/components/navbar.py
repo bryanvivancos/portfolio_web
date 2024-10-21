@@ -2,24 +2,30 @@ import reflex as rx
 from portfolio_web.styles.styles import Size
 from portfolio_web.components.link_button_navbar import link_navbar
 from portfolio_web.styles.colors import Color
+import portfolio_web.styles.styles as styles
 
 def navbar() -> rx.Component:
     return rx.center(
-        link_navbar(
+        rx.hstack(
+            link_navbar(
             "¿Quien soy?",
             "#"
-        ),
-        link_navbar(
-            "Proyectos",
-            "#proyectos"
-        ),
-        link_navbar(
-            "Cursos y Certificaciones",
-            "#cursos"
-        ),
-        link_navbar(
-            "Skills",
-            "#skills"
+            ),
+            link_navbar(
+                "Proyectos",
+                "#proyectos"
+            ),
+            link_navbar(
+                "Cursos y Certificaciones",
+                "#cursos"
+            ),
+            link_navbar(
+                "Skills",
+                "#skills"
+            ),
+            max_width= styles.MAX_WIDTH,
+            width= "100%",
+            justify_content= "space-evenly",
         ),
         position= "sticky",
         bg= Color.SECONDARY.value,

@@ -32,6 +32,7 @@ BASE_STYLE = {
     "font_weight":FontWeight.LIGHT.value,
     "scroll_behavior":"smooth",
     "background_color": Color.BACKGROUND.value,
+    "scroll_behavior": "smooth",
     rx.heading:{
         "color":TextColor.HEADER.value,
         "font_family": Font.TITLE.value,
@@ -85,5 +86,6 @@ button_body_style= dict(
 link_icon_style = dict(
     width="100%",
     justify_content= "space-evenly",
+    margin_y=Size.DEFAULT.value,
 )
 

@@ -22,7 +22,7 @@ def index() -> rx.Component:
             width= "100%",
             margin_y= Size.BIG.value
             ),
-            margin_x=Size.SMALL.value,
+            margin_x=Size.MEDIUM.value,
         ),
         footer(),        
     )
