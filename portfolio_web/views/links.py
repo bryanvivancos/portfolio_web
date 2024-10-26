@@ -72,18 +72,21 @@ def links() -> rx.Component:
             rx.image(
             src="icons/html.svg",
             width= Size.BIG.value,
+            alt="skill adicional html",
             ),
             rx.image(
             src="icons/css.svg",
             width= Size.BIG.value,
+            alt="skill adicional css",
             ),
             rx.image(
             src="icons/javascript.svg",
             width= Size.BIG.value,
+            alt="skill adicional javascript",
             ),
             style= styles.link_icon_style,
         ),
         
         spacing= Size.MEDIUM.value,
-        width="100%"
+        width="100%",
     )

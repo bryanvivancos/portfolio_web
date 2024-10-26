@@ -2,8 +2,8 @@
 
 import reflex as rx
 from portfolio_web.components.navbar import navbar
-from portfolio_web.views.header.header import header
-from portfolio_web.views.links.links import links
+from portfolio_web.views.header import header
+from portfolio_web.views.links import links
 from portfolio_web.components.footer import footer
 import portfolio_web.styles.styles as styles
 from portfolio_web.styles.styles import Size

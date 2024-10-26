@@ -11,7 +11,8 @@ def header() -> rx.Component:
         rx.grid(
             rx.center(
                 rx.image(
-                src="https://media.licdn.com/dms/image/v2/D4E03AQE-ofROHczE0w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1710025305289?e=1735171200&v=beta&t=ogGBnGyZee56lDxgoB_2KQ1kOZYybxUPJs6FEsqIGvo",
+                src="/images/avatar.jpg",
+                alt="Imagen de perfil de Bryan Vivanco",
                 color=Color.BACKGROUND.value,
                 border_radius="50%", 
                 padding="2px",
@@ -42,16 +43,19 @@ def header() -> rx.Component:
             link_icon(
                 "icons/linkedin.svg",
                 const.LINKEDIN_URL,
+                "linkedin",
                 True,
             ),
             link_icon(
                 "icons/github.svg",
                 const.GITHUB_URL,
+                "github",
                 True,
             ),
             link_icon(
                 "icons/mail.svg",
                 f"mailto:{const.EMAIL}",
+                "mail to",
                 True,
             ),
             style= styles.link_icon_style

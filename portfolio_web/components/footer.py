@@ -11,8 +11,8 @@ def footer() -> rx.Component:
         
         ),
         rx.text(
-            "PIURA - PERÚ",
-            text_align="right"
+            "PIURA PERÚ",
+            text_align="center"
         ),
         width= "100%",
         justify_content="space-evenly",

@@ -9,5 +9,5 @@ def link_navbar(text:str,url:str) -> rx.Component:
         ),
         href= url ,
         color= Color.BACKGROUND.value,
-        style=styles.navbar_title_style
+        style=styles.navbar_title_style,
     )
