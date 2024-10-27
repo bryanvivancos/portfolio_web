@@ -39,27 +39,6 @@ def header() -> rx.Component:
             spacing= Size.MEDIUM.value,
             justify="center"
         ),
-        rx.hstack(
-            link_icon(
-                "icons/linkedin.svg",
-                const.LINKEDIN_URL,
-                "linkedin",
-                True,
-            ),
-            link_icon(
-                "icons/github.svg",
-                const.GITHUB_URL,
-                "github",
-                True,
-            ),
-            link_icon(
-                "icons/mail.svg",
-                f"mailto:{const.EMAIL}",
-                "mail to",
-                True,
-            ),
-            style= styles.link_icon_style
-        ),
         spacing= Size.BIG.value,
     )
     

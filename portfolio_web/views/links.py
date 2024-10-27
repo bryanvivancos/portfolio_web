@@ -9,61 +9,61 @@ import portfolio_web.constants as const
 def links() -> rx.Component:
     return rx.vstack(
         
-        title("Proyectos","proyectos"),
         link_button(
-            "CV desde Google Drive",
-            "CV desde Google Drive",
             "icons/google_drive.svg",
+            "CV desde Google Drive",
+            "CV desde Google Drive",
             const.CV_URL,
         ),
+        title("Proyectos","proyectos"),
         link_button(
+            "icons/github.svg",
             "DE FORMULARIO WEB A WORD - PYTHON",
             "Proyecto que automatiza el llenado de un Formato Word con las respuestas de un Formulario WEB",
-            "icons/github.svg",
             const.FORMULARIOWEB_URL,
         ),
         link_button(
+            "icons/github.svg",
             "GENERATING DATA - PYTHON",
             "Proyecto que se encarga de generar data para visualizarla y analizarla",
-            "icons/github.svg",
             const.GENERATINGDATA_URL,
         ),
         link_button(
+            "icons/github.svg",
             "GETTING STARTED WITH DJANGO - PYTHON",
             "Primeros pasos para crear una aplicación web con Django ",
-            "icons/github.svg",
             const.GETTINDJANGO_URL,
         ),
         link_button(
+            "icons/github.svg",
             "X FOLLOW CARD - REACT",
             "Plantilla que simula la tarjeta de seguido/dejar de seguir de la plataforma X(antes Twitter)",
-            "icons/github.svg",
             const.XFOLLOWCARD_URL,
         ),
         
         title("Cursos y Certificaciones","cursos"),
         link_button(
+            "icons/certificate.svg",
             "Data Science For Business",
             "Tu primera semana como Data Scientist",
-            "icons/google_drive.svg",
             const.DSFB_URL,
         ),
         link_button(
+            "icons/certificate.svg",
             "CIETSI - COLEGIO DE INGENIEROS, CD - PIURA",
             "Implementación de una base de datos con SQL SERVER 2022",
-            "icons/google_drive.svg",
             const.CERTCIETSI_URL,
         ),
         link_button(
+            "icons/certificate.svg",
             "UDEMY",
             "Desarrollo Web - HTML, CSS, JAVASCRIPT",
-            "icons/google_drive.svg",
             const.CV_URL,
         ),
         link_button(
+            "icons/certificate.svg",
             "CISCO NETACAD",
             "NDG Linux Essentials",
-            "icons/google_drive.svg",
             const.NETNDGLINUX_URL,
         ),
         

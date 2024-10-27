@@ -6,7 +6,7 @@ from .fonts import Font
 from .fonts import FontWeight
 
 #constantes
-MAX_WIDTH = "720px"
+MAX_WIDTH = "680px"
 
 #Fonts
 
@@ -23,14 +23,13 @@ class Size(Enum):
     DL = "1.1"
     LARGE= "1.5em"
     BIG= "2em"
-    
+    XL= "3em"
     
 #styles
 
 BASE_STYLE = {
     "font_family":Font.DEFAULT.value,
     "font_weight":FontWeight.LIGHT.value,
-    "scroll_behavior":"smooth",
     "background_color": Color.BACKGROUND.value,
     "scroll_behavior": "smooth",
     rx.heading:{
@@ -66,9 +65,7 @@ navbar_title_style= dict(
 titles_style= dict(
     width= "100%",
     font_family= Font.TITLE.value,
-    margin= Size.MEDIUM.value,
-    margin_left= Size.ZERO.value,
-    margin_bottom= Size.ZERO.value
+    margin_top= Size.MEDIUM.value,
 )
     
 
@@ -86,6 +83,7 @@ button_body_style= dict(
 link_icon_style = dict(
     width="100%",
     justify_content= "space-evenly",
+    align_items= "center",
     margin_y=Size.DEFAULT.value,
 )
 

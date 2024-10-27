@@ -11,6 +11,8 @@ FORMULARIOWEB_URL = "https://github.com/bryanvivancos/formularioweb_a_pdf"
 GENERATINGDATA_URL = "https://github.com/bryanvivancos/python_crash_course/tree/main/generating_data/chapter_15"
 GETTINDJANGO_URL = "https://github.com/bryanvivancos/python_crash_course/tree/main/web_applications"
 XFOLLOWCARD_URL = "https://github.com/bryanvivancos/x_FollowCard"
+PORTWEB_URL = "https://github.com/bryanvivancos/portfolio_web"
+
 
 #CURSOS Y CERTIFICACIONES
 DSFB_URL = "https://drive.google.com/file/d/1wwGnsUsofVXpkxNwbygFpsABEJjYh_eA/view?usp=sharing"

@@ -2,7 +2,7 @@ import reflex as rx
 import portfolio_web.styles.styles as styles
 from portfolio_web.styles.styles import Size
 
-def link_button(title:str,body:str,image:str="",url:str="#") -> rx.Component:
+def link_button(image:str,title:str,body:str,url:str) -> rx.Component:
     return rx.link(
         rx.button(
             rx.hstack(
