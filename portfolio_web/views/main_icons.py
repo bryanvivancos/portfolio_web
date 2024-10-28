@@ -29,6 +29,7 @@ def main_icons() -> rx.Component:
                     True,
                 ),
                 style= styles.link_icon_style,
+                justify= rx.breakpoints(initial="center", sm="start"),
             ),
         ),
         rx.vstack(
@@ -55,8 +56,9 @@ def main_icons() -> rx.Component:
                 alt="skill django",
                 ),
                 style= styles.link_icon_style,
+                justify= rx.breakpoints(initial="center", sm="start"),
             ),
         ),
         width= "100%",
-        columns= rx.breakpoints(initial="1", sm="2")
+        columns= rx.breakpoints(initial="1", sm="2"),
     )

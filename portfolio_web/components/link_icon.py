@@ -10,5 +10,4 @@ def link_icon(image:str,url:str, alt:str,external:bool) -> rx.Component:
         ),
         href=url,
         is_external= external,
-        
     )

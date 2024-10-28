@@ -82,8 +82,8 @@ button_body_style= dict(
 
 link_icon_style = dict(
     width="100%",
-    justify_content= "space-evenly",
     align_items= "center",
+    gap= Size.XL.value,
     margin_y=Size.DEFAULT.value,
 )
 

@@ -1,6 +1,7 @@
 import reflex as rx
 from portfolio_web.styles.styles import Size
 from portfolio_web.components.link_button_navbar import link_navbar
+from portfolio_web.routes import Route
 from portfolio_web.styles.colors import Color
 import portfolio_web.styles.styles as styles
 
@@ -8,8 +9,8 @@ def navbar() -> rx.Component:
     return rx.center(
         rx.hstack(
             link_navbar(
-            "¿Quien soy?",
-            "#"
+                "¿Quien soy?",
+                "#",    
             ),
             link_navbar(
                 "Proyectos",
