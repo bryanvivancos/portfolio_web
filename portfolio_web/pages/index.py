@@ -22,12 +22,12 @@ def index() -> rx.Component:
             rx.vstack(
             header(),
             main_icons(),
-            index_links(),                
+            index_links(), 
+            footer(),               
             max_width= styles.MAX_WIDTH,
             width= "100%",
             margin_y= Size.BIG.value
             ),
             margin_x=Size.MEDIUM.value,
-        ),
-        footer(),        
+        ),       
     )

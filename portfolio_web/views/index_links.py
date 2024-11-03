@@ -20,6 +20,12 @@ def index_links() -> rx.Component:
             title("Proyectos"),
             link_button(
                 "icons/github.svg",
+                "PYTHON BACKEND CON FASTAPI Y MONGODB",
+                "Ejercicio de un Backend en Python usando las tecnologías de FastAPI y MongoDB",
+                const.BACKENDEX_URL,
+            ),
+            link_button(
+                "icons/github.svg",
                 "DE FORMULARIO WEB A WORD - PYTHON",
                 "Proyecto que automatiza el llenado de un Formato Word con las respuestas de un Formulario WEB",
                 const.FORMULARIOWEB_URL,
@@ -92,6 +98,12 @@ def index_links() -> rx.Component:
                 width= Size.BIG.value,
                 alt="skill adicional javascript",
                 ),
+                rx.image(
+                src="icons/django.svg",
+                width= Size.XL.value,
+                alt="skill django",
+                ),
+                
                 style= styles.link_icon_style,
                 justify= rx.breakpoints(initial="center", sm="start"),
             ),

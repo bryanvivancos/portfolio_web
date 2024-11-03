@@ -12,6 +12,7 @@ GENERATINGDATA_URL = "https://github.com/bryanvivancos/python_crash_course/tree/
 GETTINDJANGO_URL = "https://github.com/bryanvivancos/python_crash_course/tree/main/web_applications"
 XFOLLOWCARD_URL = "https://github.com/bryanvivancos/x_FollowCard"
 PORTWEB_URL = "https://github.com/bryanvivancos/portfolio_web"
+BACKENDEX_URL = "https://github.com/bryanvivancos/backend_exercise_py"
 
 
 #CURSOS Y CERTIFICACIONES

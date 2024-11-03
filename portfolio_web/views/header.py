@@ -40,5 +40,6 @@ def header() -> rx.Component:
             justify="center"
         ),
         spacing= Size.BIG.value,
+        padding_top=Size.BIG.value,
     )
     

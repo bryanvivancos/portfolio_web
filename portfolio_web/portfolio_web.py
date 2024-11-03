@@ -4,8 +4,8 @@ import reflex as rx
 import portfolio_web.styles.styles as styles
 from portfolio_web.pages.index import index
 
-class State(rx.State):
-    pass
+# class State(rx.State):
+#     pass
 
 app = rx.App(
     stylesheets= styles.STYLESHEETS,

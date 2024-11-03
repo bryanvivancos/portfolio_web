@@ -50,11 +50,7 @@ def main_icons() -> rx.Component:
                 width= Size.XL.value,
                 alt="skill linux",
                 ),
-                rx.image(
-                src="icons/django.svg",
-                width= Size.XL.value,
-                alt="skill django",
-                ),
+                
                 style= styles.link_icon_style,
                 justify= rx.breakpoints(initial="center", sm="start"),
             ),
