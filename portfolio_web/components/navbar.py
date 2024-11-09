@@ -27,6 +27,7 @@ def navbar() -> rx.Component:
             max_width= styles.MAX_WIDTH,
             width= "100%",
             justify_content= "space-evenly",
+            align_items= "center",
         ),
         position= "sticky",
         bg= Color.SECONDARY.value,

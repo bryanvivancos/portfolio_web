@@ -1,6 +1,6 @@
 *.db
 *.py[cod]
+.pw-env/
 .web
 __pycache__/
 assets/external/
-.pw-env/

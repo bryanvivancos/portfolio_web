@@ -5,7 +5,7 @@ from portfolio_web.styles.styles import Size
 from portfolio_web.styles.colors import TextColor
 
 def footer() -> rx.Component:
-    return rx.hstack(
+    return rx.vstack(
         rx.link(
             rx.text(
             f"© 2020-{datetime.date.today().year} BY BRYAN JOSUE VIVANCO SILVA",
@@ -19,9 +19,10 @@ def footer() -> rx.Component:
             text_align="center"
         ),
         width= "100%",
-        justify_content="space-evenly",
+        align= "center",
         padding_x= Size.BIG.value,
         padding_bottom=Size.BIG.value,
-        font_size= Size.MEDIUM.value,
+        font_size= Size.SM.value,
+        spacing=Size.ZERO.value,
         color= TextColor.FOOTER.value
     )
