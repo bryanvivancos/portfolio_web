@@ -13,6 +13,7 @@ GETTINDJANGO_URL = "https://github.com/bryanvivancos/python_crash_course/tree/ma
 XFOLLOWCARD_URL = "https://github.com/bryanvivancos/x_FollowCard"
 PORTWEB_URL = "https://github.com/bryanvivancos/portfolio_web"
 BACKENDEX_URL = "https://github.com/bryanvivancos/backend_exercise_py"
+CATALOG_URL = "https://github.com/bryanvivancos/album_project"
 
 
 #CURSOS Y CERTIFICACIONES

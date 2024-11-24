@@ -32,7 +32,9 @@ BASE_STYLE = {
     "font_family":Font.DEFAULT.value,
     "font_weight":FontWeight.LIGHT.value,
     "background_color": Color.BACKGROUND.value,
-    "scroll_behavior": "smooth",
+    "scroll_behavior": "smooth !important",
+    "overflow_y": "auto",
+    "height": "100vh",
     rx.heading:{
         "color":TextColor.HEADER.value,
         "font_family": Font.TITLE.value,

@@ -20,6 +20,12 @@ def index_links() -> rx.Component:
             title("Proyectos"),
             link_button(
                 "icons/github.svg",
+                "ALBUM/CATALOG PROJECT",
+                "Plataforma CRUD con Python que interactúa con una base de datos en SUPABASE",
+                const.CATALOG_URL,
+            ),
+            link_button(
+                "icons/github.svg",
                 "PYTHON BACKEND CON FASTAPI Y MONGODB",
                 "Ejercicio de un Backend en Python usando las tecnologías de FastAPI y MongoDB",
                 const.BACKENDEX_URL,

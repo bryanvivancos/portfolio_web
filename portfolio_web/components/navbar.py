@@ -10,7 +10,7 @@ def navbar() -> rx.Component:
         rx.hstack(
             link_navbar(
                 "¿Quien soy?",
-                "#",    
+                "#me",    
             ),
             link_navbar(
                 "Proyectos",
