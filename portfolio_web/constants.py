@@ -20,6 +20,11 @@ CATALOG_URL = "https://github.com/bryanvivancos/album_project"
 DSFB_URL = "https://drive.google.com/file/d/1wwGnsUsofVXpkxNwbygFpsABEJjYh_eA/view?usp=sharing"
 CERTCIETSI_URL = "https://drive.google.com/file/d/1IY8a3koFBj9LXOB8GCmOxS-8oduj26Lj/view?usp=sharing"
 NETNDGLINUX_URL = "https://drive.google.com/file/d/1izHdLPAQCJFODG4YwkWHxt5iDhoqjEMs/view?usp=sharing"
+APPLIED_DS_IBM_URL = "https://drive.google.com/file/d/1_uIvmFr-5gnHRUNZt-9g1iPz8RihqT2P/view?usp=drive_link"
+PYDS_IBM_URL = "https://drive.google.com/file/d/1yAZ65befZdZZCEq8w0S6u3KM-Ob8i9Yx/view?usp=drive_link"
+DV_PY_IBM_URL = "https://drive.google.com/file/d/1bMeBuiXnzHr2oBEJBVhSZeTddyDEajQh/view?usp=drive_link"
+DAPY_IBM_URL = "https://drive.google.com/file/d/1pJ2FgzF0RkfBY6zAXdOM1G8Q5ofz6ofA/view?usp=drive_link"
+
 
 #CONTACTO
 EMAIL = "example@example.com"

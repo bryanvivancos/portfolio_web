@@ -61,6 +61,30 @@ def index_links() -> rx.Component:
             title("Cursos y Certificaciones"),
             link_button(
                 "icons/certificate.svg",
+                "Applied Data Science with Python",
+                "IBM Course Level 2",
+                const.APPLIED_DS_IBM_URL,
+            ),
+            link_button(
+                "icons/certificate.svg",
+                "Python for Data Science",
+                "IBM Course",
+                const.PYDS_IBM_URL,
+            ),
+            link_button(
+                "icons/certificate.svg",
+                "Data Analysis Using Python",
+                "IBM Course",
+                const.DAPY_IBM_URL,
+            ),
+            link_button(
+                "icons/certificate.svg",
+                "Data Visualization Using Python",
+                "IBM Course",
+                const.DV_PY_IBM_URL,
+            ),
+            link_button(
+                "icons/certificate.svg",
                 "Data Science For Business",
                 "Tu primera semana como Data Scientist",
                 const.DSFB_URL,
