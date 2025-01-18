@@ -27,8 +27,8 @@ def header() -> rx.Component:
                 size="8",
                 ),
                 rx.text(
-                    """Ingeniero Electrónico y Telecomunicaciones. 
-                    +1 año realizando proyectos personales, aprendiendo tecnologías y +3 años trabajando en el campo de TI. Autodidacta con orientación al servicio, rápida capacidad de aprendizaje, buenas relaciones interpersonales a todo nivel social, alta capacidad analítica comunicativa, pensamiento estratégico y dinamismo. Buenas habilidades para el trabajo en equipo y bajo presión, alta capacidad organizativa y buen criterio. 
+                    """Ingeniero Electrónico y Telecomunicaciones Colegiado de la Universidad Nacional de Piura con N° reg CIP 328477. 
+                        Desarrollador autodidacta con +1 año realizando proyectos personales, aprendiendo tecnologías y +3 años trabajando en el campo de TI. Con buenas habilidades para el trabajo en equipo y bajo presión, proactivo, con pensamiento analítico, rápida capacidad de aprendizaje, capacidad de autogestión y atención al detalle, adaptable al cambio y con buena comunicación verbal. Capaz de dar y recibir feedback, así mismo, gran talento de liderazgo.
                     """,
                     color= TextColor.BODY.value,
                     font_size=Size.MEDIUM.value

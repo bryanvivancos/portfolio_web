@@ -8,7 +8,7 @@ from portfolio_web.components.link_icon import link_icon
 def main_icons() -> rx.Component:
     return rx.grid(
         rx.vstack(
-            title("Redes"),
+            title("Contáctame"),
             rx.hstack(
                 link_icon(
                     "icons/linkedin.svg",

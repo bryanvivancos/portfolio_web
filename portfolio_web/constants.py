@@ -7,6 +7,9 @@ GITHUB_URL = "https://github.com/bryanvivancos"
 #ENLACES PROYECTOS
 
 CV_URL = "https://docs.google.com/document/d/1COvjcCJE4GXUlkkSa9U6CrofLQPBkKWM/edit?usp=sharing&ouid=117976139180001148882&rtpof=true&sd=true"
+CV_EN_US_URL = "https://docs.google.com/document/d/1-HQzm3XRZhPyWru5ViaSeCmuRuVj-9RO/edit?usp=sharing&ouid=117976139180001148882&rtpof=true&sd=true"
+
+
 FORMULARIOWEB_URL = "https://github.com/bryanvivancos/formularioweb_a_pdf"
 GENERATINGDATA_URL = "https://github.com/bryanvivancos/python_crash_course/tree/main/generating_data/chapter_15"
 GETTINDJANGO_URL = "https://github.com/bryanvivancos/python_crash_course/tree/main/web_applications"

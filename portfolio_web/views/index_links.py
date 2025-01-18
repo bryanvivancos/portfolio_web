@@ -15,6 +15,12 @@ def index_links() -> rx.Component:
             "Curriculum desde Google Drive",
             const.CV_URL,
         ),
+        link_button(
+            "icons/google_drive.svg",
+            "CV from Google Drive",
+            "EN-US Resume from Google Drive",
+            const.CV_EN_US_URL,
+        ),
         
         rx.vstack(
             title("Proyectos"),
