@@ -26,6 +26,12 @@ def index_links() -> rx.Component:
             title("Proyectos"),
             link_button(
                 "icons/github.svg",
+                "ASSIST CONTROL PROJECT",
+                "Proyecto para llevar un control de asistencia de colaboradores de una empresa con PYTHON, DJANGO y SQL SERVER",
+                const.CONTROL_ASSIST,
+            ),
+            link_button(
+                "icons/github.svg",
                 "ALBUM/CATALOG PROJECT",
                 "Plataforma CRUD con Python que interactúa con una base de datos en SUPABASE",
                 const.CATALOG_URL,

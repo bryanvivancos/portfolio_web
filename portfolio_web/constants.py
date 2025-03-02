@@ -17,7 +17,7 @@ XFOLLOWCARD_URL = "https://github.com/bryanvivancos/x_FollowCard"
 PORTWEB_URL = "https://github.com/bryanvivancos/portfolio_web"
 BACKENDEX_URL = "https://github.com/bryanvivancos/backend_exercise_py"
 CATALOG_URL = "https://github.com/bryanvivancos/album_project"
-
+CONTROL_ASSIST= "https://github.com/bryanvivancos/control-asist"
 
 #CURSOS Y CERTIFICACIONES
 DSFB_URL = "https://drive.google.com/file/d/1wwGnsUsofVXpkxNwbygFpsABEJjYh_eA/view?usp=sharing"
