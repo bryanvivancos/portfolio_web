@@ -20,6 +20,11 @@ CATALOG_URL = "https://github.com/bryanvivancos/album_project"
 CONTROL_ASSIST= "https://github.com/bryanvivancos/control-asist"
 
 #CURSOS Y CERTIFICACIONES
+
+API_PRACTICO_URL = "https://drive.google.com/file/d/1dI9_KsUwhDqZ0SlyLDTcl_A8aWJFN7Pz/view?usp=sharing"
+INTRO_BACKEND_URL = "https://drive.google.com/file/d/1E7SvIIDxxe9-MIvXdCfREDsPkDZjUidO/view?usp=sharing"
+DOM_URL = "https://drive.google.com/file/d/1Z-uic7TwvXKRslZlmc3grf-6kxoxkIl4/view?usp=sharing"
+WEB_COMPONENTS_URL = "https://drive.google.com/file/d/1HWUNXAzvusH7xV4jZ36yOpyZCdfejkB8/view?usp=sharing"
 DSFB_URL = "https://drive.google.com/file/d/1wwGnsUsofVXpkxNwbygFpsABEJjYh_eA/view?usp=sharing"
 CERTCIETSI_URL = "https://drive.google.com/file/d/1IY8a3koFBj9LXOB8GCmOxS-8oduj26Lj/view?usp=sharing"
 NETNDGLINUX_URL = "https://drive.google.com/file/d/1izHdLPAQCJFODG4YwkWHxt5iDhoqjEMs/view?usp=sharing"
