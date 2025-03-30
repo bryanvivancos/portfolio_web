@@ -21,6 +21,10 @@ CONTROL_ASSIST= "https://github.com/bryanvivancos/control-asist"
 
 #CURSOS Y CERTIFICACIONES
 
+MAS_CERTIFICADOS = "https://drive.google.com/drive/folders/1EbKWVsqkyQ4OUvZwf5ZEm3F5ON8sV0Zy?usp=sharing"
+
+##############################
+
 API_PRACTICO_URL = "https://drive.google.com/file/d/1dI9_KsUwhDqZ0SlyLDTcl_A8aWJFN7Pz/view?usp=sharing"
 INTRO_BACKEND_URL = "https://drive.google.com/file/d/1E7SvIIDxxe9-MIvXdCfREDsPkDZjUidO/view?usp=sharing"
 DOM_URL = "https://drive.google.com/file/d/1Z-uic7TwvXKRslZlmc3grf-6kxoxkIl4/view?usp=sharing"

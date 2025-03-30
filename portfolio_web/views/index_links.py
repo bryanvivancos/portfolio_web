@@ -113,6 +113,12 @@ def index_links() -> rx.Component:
                 "Udemy",
                 const.CV_URL,
             ),
+            link_button(
+                "icons/certificate.svg",
+                "ENCUENTRA MÁS CERTIFICADOS...",
+                "Drive",
+                const.MAS_CERTIFICADOS,
+            ),
             id="cursos",
             width="100%",
         ),
