@@ -90,3 +90,8 @@ link_icon_style = dict(
     margin_y=Size.DEFAULT.value,
 )
 
+cv_style = dict(
+    width="100%",
+    gap= Size.MEDIUM.value,
+    columns= rx.breakpoints(initial="1", sm="2"),
+)

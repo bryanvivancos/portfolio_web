@@ -9,17 +9,22 @@ import portfolio_web.constants as const
 def index_links() -> rx.Component:
     return rx.vstack(
         
-        link_button(
+        rx.grid(
+            link_button(
             "icons/google_drive.svg",
             "CV desde Google Drive",
             "Curriculum desde Google Drive",
             const.CV_URL,
-        ),
-        link_button(
-            "icons/google_drive.svg",
-            "CV from Google Drive",
-            "EN-US Resume from Google Drive",
-            const.CV_EN_US_URL,
+            ),
+            link_button(
+                "icons/google_drive.svg",
+                "CV from Google Drive",
+                "EN-US Resume from Google Drive",
+                const.CV_EN_US_URL,
+            ),
+            width="100%",
+            gap= Size.MEDIUM.value,
+            columns= rx.breakpoints(initial="1", sm="2"),
         ),
         
         rx.vstack(
